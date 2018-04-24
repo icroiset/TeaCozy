@@ -1,0 +1,136 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+
+/* Main Content Container */
+
+.main {
+  position: relative;
+  top: 70px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+.logo img {
+  height: 50px;
+}
+
+
+/* Part 1 - Mission */
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.message {
+  display: inline-block;
+  background-color: black;
+  width: 100%;
+  margin-top: 265px;
+}
+
+
+/* Part 2 "Tea of the Month" */
+
+.tea {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.event img{
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.event{
+  display: inline-block;
+  text-align: center;
+}
+
+/* Part 3 Location */
+
+.Location {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+}
+
+.block {
+  display: block;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin:15px 20px;
+  text-align: center;
+  line-height: 200%;
+}
+
+/* Part 4 Conatact */
+
+.contact {
+  background-color: black;
+  height: 200px;
+  text-align:center;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  padding: 20px;
+}
